@@ -18,4 +18,6 @@
 
 - [ ] add Collects
 
-- [ ] add scripture readings
+- [ ] add specific extended scripture readings
+
+- [ ] remove some space between a section's text and 'Amen' (if it ends with 'Amen')
