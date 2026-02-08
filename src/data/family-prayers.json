@@ -5,35 +5,86 @@
     "sections": [
       {
         "header": "OPENING VERSE",
-        "content": "\"O Lord, open my lips,\nand my mouth shall show forth your praise.\"\n\nPsalm 51:15"
+        "content": {
+          "scripture": {
+            "text": "O Lord, open my lips, and my mouth shall show forth your praise.",
+            "reference": "Psalm 51:15"
+          }
+        }
       },
       {
         "header": "PSALM READING",
-        "content": "Psalm 51:10-12\nCreate in me a clean heart, O God,\nand renew a right spirit within me.\nCast me not away from your presence,\nand take not your holy Spirit from me.\nO give me the comfort of your help again,\nand sustain me with your willing Spirit.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit;\nas it was in the beginning, is now, and ever shall be, world without end.\n\nAmen."
+        "content": {
+          "scripture": {
+            "text": "Psalm 51:10-12",
+            "verses": "Create in me a clean heart, O God, and renew a right spirit within me. Cast me not away from your presence, and take not your holy Spirit from me. O give me the comfort of your help again, and sustain me with your willing Spirit.",
+            "glory": {
+              "text": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end.",
+              "response": "Amen."
+            }
+          }
+        }
       },
       {
         "header": "A READING FROM HOLY SCRIPTURE",
-        "content": "\"Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead.\"\n\n1 Peter 1:3\n\nor this\n\n\"Give thanks to the Father, who has qualified you to share in the inheritance of the saints in light. He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, and the forgiveness of sins.\"\n\nColossians 1:12-14\n\nor this\n\n\"If then you have been raised with Christ, seek things that are above, where Christ is, seated at the right hand of God. Set your minds on things that are above, not on things that are on earth. For you have died, and your life is hidden with Christ in God. When Christ who is your life appears, then you also will appear with him in glory.\"\n\nColossians 3:1-4"
+        "content": {
+          "scripture": {
+            "text": "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead.",
+            "reference": "1 Peter 1:3"
+          },
+          "alternatives": [
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Give thanks to the Father, who has qualified you to share in the inheritance of the saints in light. He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the and the forgiveness of sins.",
+                "reference": "Colossians 1:12-14"
+              }
+            },
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God. Set your minds on things that are above, not on things that are on the earth. For you have died, and your life is hidden with Christ in God. When Christ who is your life appears, then you also will appear with him in glory.",
+                "reference": "Colossians 3:1-4"
+              }
+            }
+          ]
+        }
       },
       {
         "header": "REFLECT",
-        "content": "Take a moment for silent reflection."
+        "content": {
+          "instructions": "Take a moment for silent reflection."
+        }
       },
       {
         "header": "THE APOSTLES' CREED",
-        "content": "I believe in God, the Father almighty,\ncreator of heaven and earth.\n\nI believe in Jesus Christ, his only Son, our Lord.\nHe was conceived by the Holy Spirit\nand born of the Virgin Mary.\nHe suffered under Pontius Pilate,\nwas crucified, died, and was buried.\nHe descended to the dead.\nOn the third day he rose again.\nHe ascended into heaven,\nand is seated at the right hand of the Father.\nHe will come again to judge the living and the dead.\n\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\n\nAmen."
+        "content": {
+          "text": "I believe in God, the Father almighty, creator of heaven and earth. I believe in Jesus Christ, his only Son, our Lord. He was conceived by the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He descended to the dead. On the third day he rose again. He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting."
+        }
       },
       {
         "header": "INTERCEDE",
-        "content": "Offer prayers for yourself and others."
+        "content": {
+          "instructions": "Offer prayers for yourself and others."
+        }
       },
       {
         "header": "THE LORD'S PRAYER",
-        "content": "Our Father in heaven, hallowed be your Name.\nYour kingdom come, your will be done, on earth as it is in heaven.\nGive us today our daily bread.\nAnd forgive us our sins, as we forgive those who sin against us.\nSave us from the time of trial, and deliver us from evil.\nFor thine is the kingdom, and the power, and the glory, for ever and for ever.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Our Father in heaven, hallowed be your Name. Your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our sins, as we forgive those who sin against us. Save us from the time of trial, and deliver us from evil. For thine is the kingdom, and the power, and the glory, for ever and for ever.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "THE COLLECT",
-        "content": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord.",
+            "response": "Amen."
+          }
+        }
       }
     ]
   },
@@ -43,27 +94,69 @@
     "sections": [
       {
         "header": "OPENING VERSE",
-        "content": "\"Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places.\"\n\nEphesians 1:3"
+        "content": {
+          "scripture": {
+            "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places.",
+            "reference": "Ephesians 1:3"
+          }
+        }
       },
       {
         "header": "PSALM READING",
-        "content": "Psalm 113:1-4\nPraise the Lord. Sing praises, you servants of the Lord.\nO praise the Name of the Lord.\nBlessed be the Name of the Lord,\nfrom this time forth for evermore.\nThe Lord is high above all nations,\nand his glory above the heavens.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit;\nas it was in the beginning, is now, and ever shall be, world without end.\n\nAmen."
+        "content": {
+          "scripture": {
+            "text": "Psalm 113:1-4",
+            "verses": "Praise the Lord. Sing praises, you servants of the Lord. O praise the Name of the Lord. Blessed be the Name of the Lord, from this time forth for evermore. The Lord is high above all nations, and his glory above the heavens.",
+            "glory": {
+              "text": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end.",
+              "response": "Amen."
+            }
+          }
+        }
       },
       {
         "header": "A READING FROM HOLY SCRIPTURE",
-        "content": "\"Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.\"\n\nJohn 15:4-5\n\nor this\n\n\"Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.\"\n\nPhilippians 4:6-7"
+        "content": {
+          "scripture": {
+            "text": "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.",
+            "reference": "John 15:4-5"
+          },
+          "alternatives": [
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.",
+                "reference": "Philippians 4:6-7"
+              }
+            }
+          ]
+        }
       },
       {
         "header": "REFLECT AND INTERCEDE",
-        "content": "Take a moment for silent reflection. Then offer prayers for yourself and others."
+        "content": {
+          "instructions": "Take a moment for silent reflection. Then offer prayers for yourself and others."
+        }
       },
       {
         "header": "THE LORD'S PRAYER",
-        "content": "Our Father in heaven, hallowed be your Name.\nYour kingdom come, your will be done, on earth as it is in heaven.\nGive us today our daily bread.\nAnd forgive us our sins, as we forgive those who sin against us.\nSave us from the time of trial, and deliver us from evil.\nFor thine is the kingdom, and the power, and the glory, for ever and for ever.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Our Father in heaven, hallowed be your Name. Your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our sins, as we forgive those who sin against us. Save us from the time of trial, and deliver us from evil. For thine is the kingdom, and the power, and the glory, for ever and for ever.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "MIDDAY COLLECT",
-        "content": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake.\n\nAlmighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and to the Holy Spirit, one God, for ever and ever.\n\nFather of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ.\n\nPour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever.\n\nSilence may be kept, and other intercessions and thanksgivings may be offered.\n\n\"The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore.\"\n\n2 Corinthians 13:14\n\nAmen."
+        "content": {
+          "label": "MIDDAY COLLECT",
+          "prayer": {
+            "all": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake. Almighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and to the Holy Spirit, one God, for ever and ever. Father of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in the extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ. Pour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever.",
+            "response": "Amen."
+          },
+          "instructions": "Silence may be kept, and other intercessions and thanksgivings may be offered."
+        }
       }
     ]
   },
@@ -73,35 +166,79 @@
     "sections": [
       {
         "header": "OPENING VERSE",
-        "content": "\"How excellent is your mercy, O God!\nThe children of men shall take refuge under the shadow of your wings.\nFor with you is the well of life,\nand in your light shall we see light.\"\n\nPsalm 51:15"
+        "content": {
+          "scripture": {
+            "text": "How excellent is your mercy, O God! The children of men shall take refuge under the shadow of your wings. For with you is the well of life, and in your light shall we see light.",
+            "reference": "Psalm 51:15"
+          }
+        }
       },
       {
         "header": "O GLADSOME LIGHT",
-        "content": "O gladsome light,\npure brightness of the everliving Father in heaven,\nO Jesus Christ, holy and blessed!\nNow as we come to the setting of the sun,\nand our eyes behold the vesper light,\nwe sing your praises, O God: Father, Son, and the Holy Spirit.\nYou are worthy at all times to be praised by happy voices,\nO Son of God, O Giver of Life,\nand to be glorified through all the worlds."
+        "content": {
+          "text": "O gladsome light, pure brightness of the everliving Father in heaven, O Jesus Christ, holy and blessed! Now as we come to the setting of the sun, and our eyes behold the vesper light, we sing your praises, O God: Father, Son, and Holy Spirit. You are worthy at all times to be praised by happy voices, O Son of God, O Giver of Life, and to be glorified through all the worlds."
+        }
       },
       {
         "header": "A READING FROM HOLY SCRIPTURE",
-        "content": "\"For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus' sake. For God, who said 'Let light shine out of darkness,' has shone in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.\"\n\n2 Corinthians 4:5-6\n\nor this\n\n\"Jesus spoke to them, saying, 'I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life.'\"\n\nJohn 8:12\n\nor this\n\n\"Jesus said, 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.'\"\n\nRevelation 3:20"
+        "content": {
+          "scripture": {
+            "text": "For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus' sake. For God, who said 'Let light shine out of darkness,' has shone in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.",
+            "reference": "2 Corinthians 4:5-6"
+          },
+          "alternatives": [
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Jesus spoke to them, saying, 'I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life.'",
+                "reference": "John 8:12"
+              }
+            },
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Jesus said, 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.'",
+                "reference": "Revelation 3:20"
+              }
+            }
+          ]
+        }
       },
       {
         "header": "REFLECT",
-        "content": "Take a moment for silent reflection."
+        "content": {
+          "instructions": "Take a moment for silent reflection."
+        }
       },
       {
         "header": "THE APOSTLES' CREED",
-        "content": "I believe in God, the Father almighty,\ncreator of heaven and earth.\n\nI believe in Jesus Christ, his only Son, our Lord.\nHe was conceived by the Holy Spirit\nand born of the Virgin Mary.\nHe suffered under Pontius Pilate,\nwas crucified, died, and was buried.\nHe descended to the dead.\nOn the third day he rose again.\nHe ascended into heaven,\nand is seated at the right hand of the Father.\nHe will come again to judge the living and the dead.\n\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\n\nAmen."
+        "content": {
+          "text": "I believe in God, the Father almighty, creator of heaven and earth. I believe in Jesus Christ, his only Son, our Lord. He was conceived by the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He descended to the dead. On the third day he rose again. He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting."
+        }
       },
       {
         "header": "INTERCEDE",
-        "content": "Offer prayers for yourself and others."
+        "content": {
+          "instructions": "Offer prayers for yourself and others."
+        }
       },
       {
         "header": "THE LORD'S PRAYER",
-        "content": "Our Father in heaven, hallowed be your Name.\nYour kingdom come, your will be done, on earth as it is in heaven.\nGive us today our daily bread.\nAnd forgive us our sins, as we forgive those who sin against us.\nSave us from the time of trial, and deliver us from evil.\nFor thine is the kingdom, and the power, and the glory, for ever and for ever.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Our Father in heaven, hallowed be your Name. Your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our sins, as we forgive those who sin against us. Save us from the time of trial, and deliver us from evil. For thine is the kingdom, and the power, and the glory, for ever and for ever.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "THE COLLECT",
-        "content": "Lord Jesus, stay with us, for the evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and in the breaking of bread. Grant this for the sake of your love.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Lord Jesus, stay with us, for the evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and in the breaking of bread. Grant this for the sake of your love.",
+            "response": "Amen."
+          }
+        }
       }
     ]
   },
@@ -111,55 +248,171 @@
     "sections": [
       {
         "header": "OPENING VERSE",
-        "content": "\"I will lay me down in peace, and take my rest;\nfor you, Lord, only, make me dwell in safety.\"\n\nPsalm 4:8"
+        "content": {
+          "scripture": {
+            "text": "I will lay me down in peace, and take my rest; for you, Lord, only, make me dwell in safety.",
+            "reference": "Psalm 4:8"
+          }
+        }
       },
       {
         "header": "PSALM READING",
-        "content": "Psalm 134\nBehold now, praise the Lord,\nall you servants of the Lord.\nYou that stand by night in the house of the Lord,\neven in the courts of the house of our God.\nLift up your hands in the sanctuary\nand sing praises unto the Lord.\nThe Lord who made heaven and earth,\ngive you blessing out of Zion.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit;\nas it was in the beginning, is now, and ever shall be, world without end.\n\nAmen."
+        "content": {
+          "scripture": {
+            "text": "Psalm 134",
+            "verses": "Behold now, praise the Lord, all you servants of the Lord. You that stand by night in the house of the Lord, even in the courts of the house of our God. Lift up your hands in the sanctuary and sing praises unto the Lord. The Lord who made heaven and earth, give you blessing out of Zion.",
+            "glory": {
+              "text": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end.",
+              "response": "Amen."
+            }
+          }
+        }
       },
       {
         "header": "A READING FROM HOLY SCRIPTURE",
-        "content": "\"You keep him in perfect peace whose minds are stayed on you, because they trust in you. Trust in the Lord forever, for the Lord God is an everlasting rock.\"\n\nIsaiah 26:3-4\n\nor this\n\n\"Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ.\"\n\n1 Thessalonians 5:23"
+        "content": {
+          "scripture": {
+            "text": "You keep him in perfect peace whose minds are stayed on you, because they trust in you. Trust in the Lord forever, for the Lord God is an everlasting rock.",
+            "reference": "Isaiah 26:3-4"
+          },
+          "alternatives": [
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ.",
+                "reference": "1 Thessalonians 5:23"
+              }
+            }
+          ]
+        }
       },
       {
         "header": "REFLECT AND INTERCEDE",
-        "content": "Take a moment for silent reflection and then offer prayers for yourself and others. This is a good time to give thanks for the day's blessings and to ask forgiveness for the day's sins."
+        "content": {
+          "instructions": "Take a moment for silent reflection and then offer prayers for yourself and others. This is a good time to give thanks for the day's blessings and to ask forgiveness for the day's sins."
+        }
       },
       {
         "header": "THE LORD'S PRAYER",
-        "content": "Our Father in heaven, hallowed be your Name.\nYour kingdom come, your will be done, on earth as it is in heaven.\nGive us today our daily bread.\nAnd forgive us our sins, as we forgive those who sin against us.\nSave us from the time of trial, and deliver us from evil.\nFor thine is the kingdom, and the power, and the glory, for ever and for ever.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Our Father in heaven, hallowed be your Name. Your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our sins, as we forgive those who sin against us. Save us from the time of trial, and deliver us from evil. For thine is the kingdom, and the power, and the glory, for ever and for ever.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "THE SONG OF SIMEON",
-        "content": "Lord, now let your servant depart in peace,\naccording to your word.\nFor my eyes have seen your salvation,\nwhich you have prepared before the face of all people;\nTo be a light to lighten the Gentiles,\nand to be the glory of your people Israel.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit;\nas it was in the beginning, is now, and ever shall be, world without end.\n\nAmen."
+        "content": {
+          "text": "Lord, now let your servant depart in peace, according to your word. For my eyes have seen your salvation, which you have prepared before the face of all the people; To be a light to lighten the Gentiles, and to be the glory of your people Israel.",
+          "prayer": {
+            "all": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "SCRIPTURE PASSAGE",
-        "content": "\"Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.\"\n\nRevelation 3:20\n\nor this\n\n\"Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.\"\n\nMatthew 11:28-30\n\n\"Now may the God of peace who brought again from the dead our Lord Jesus, the great Shepherd of the sheep, by the blood of the eternal covenant, equip you with everything good that you may do his will, working in us that which is pleasing in his sight, through Jesus Christ, to whom be glory forever and ever. Amen.\"\n\nHebrews 13:20-21\n\n\"Be sober-minded; be watchful. Your adversary is the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith.\"\n\n1 Peter 5:8-9"
+        "content": {
+          "scripture": {
+            "text": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.",
+            "reference": "Revelation 3:20"
+          },
+          "alternatives": [
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.",
+                "reference": "Matthew 11:28-30"
+              }
+            },
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Now may the God of peace who brought again from the dead our Lord Jesus, the great Shepherd of the sheep, by the blood of the eternal covenant, equip you with everything good that you may do his will, working in us that which is pleasing in his sight, through Jesus Christ, to whom be glory forever and ever. Amen.",
+                "reference": "Hebrews 13:20-21"
+              }
+            },
+            {
+              "label": "or this",
+              "scripture": {
+                "text": "Be sober-minded; be watchful. Your adversary is the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith.",
+                "reference": "1 Peter 5:8-9"
+              }
+            }
+          ]
+        }
       },
       {
         "header": "LORD, HAVE MERCY",
-        "content": "Into your hands, O Lord, I commend my spirit;\nFor you have redeemed me, O Lord, O God of the truth.\nKeep me, O Lord, as the apple of your eye;\nHide me under the shadow of your wings.\n\nLord, have mercy upon us.\nChrist, have mercy upon us.\nLord, have mercy upon us.\nLord, have mercy upon us."
+        "content": {
+          "prayer": {
+            "all": "Into your hands, O Lord, I commend my spirit; For you have redeemed me, O Lord, O God of truth. Keep me, O Lord, as the apple of your eye; Hide me under the shadow of your wings.",
+            "response": "Lord, have mercy upon us. Christ, have mercy upon us. Lord, have mercy upon us. Lord, have mercy upon us."
+          }
+        }
       },
       {
         "header": "THE LORD'S PRAYER",
-        "content": "Our Father in heaven, hallowed be your Name.\nYour kingdom come, your will be done, on earth as it is in heaven.\nGive us today our daily bread.\nAnd forgive us our trespasses, as we forgive those who trespass against us.\nAnd lead us not into temptation, but deliver us from evil.\nFor thine is the kingdom, and the power, and the glory, for ever and for ever.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "Our Father in heaven, hallowed be your Name. Your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil. For thine is the kingdom, and the power, and the glory, for ever and for ever.",
+            "response": "Amen."
+          }
+        }
       },
       {
         "header": "THE COLLECT",
-        "content": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord.\n\nAmen.\n\nLighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all the perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.\n\nBe present, O merciful God, and protect us through the hours of this night, so that we who are wearied by the changes and chances of this life may rest in your eternal changelessness; through Jesus Christ our Lord.\n\nLook down, O Lord, from your heavenly throne, illumine this night with your celestial brightness, and from the children of light banish the deeds of darkness; through Jesus Christ our Lord.\n\nA Collect for Saturdays\nWe give you thanks, O God, for revealing your Son Jesus Christ to us by the light of his resurrection: Grant that as we sing your glory at the close of this day, our joy may abound in the morning as we celebrate the Paschal mystery; through Jesus Christ our Lord.\n\nSilence may be kept, and other intercessions and thanksgivings may be offered."
+        "content": {
+          "prayer": {
+            "all": "Visit this place, O Lord, and drive far from it all the snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord.",
+            "response": "Amen."
+          },
+          "prayer": {
+            "all": "Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all the perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.",
+            "response": "Amen."
+          },
+          "prayer": {
+            "all": "Be present, O merciful God, and protect us through the hours of this night, so that we who are wearied by the changes and chances of this life may rest in your eternal changelessness; through Jesus Christ our Lord.",
+            "response": "Amen."
+          },
+          "prayer": {
+            "all": "Look down, O Lord, from your heavenly throne, illumine this night with your celestial brightness, and from the children of light banish the deeds of darkness; through Jesus Christ our Lord.",
+            "response": "Amen."
+          },
+          "label": "A Collect for Saturdays",
+          "prayer": {
+            "all": "We give you thanks, O God, for revealing your Son Jesus Christ to us by the light of his resurrection: Grant that as we sing your glory at the close of this day, our joy may abound in the morning as we celebrate the Paschal mystery; through Jesus Christ our Lord.",
+            "response": "Amen."
+          },
+          "instructions": "Silence may be kept, and other intercessions and thanksgivings may be offered."
+        }
       },
       {
         "header": "ADDITIONAL PRAYER",
-        "content": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend to sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake.\n\nO God, your unfailing providence sustains the world we live in and life we live: Watch over those, both night and day, who work while others sleep, and grant that we may never forget that our common life depends upon each other's toil; through Jesus Christ our Lord."
+        "content": {
+          "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend to sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake. O God, your unfailing providence sustains the world we live in and the life we live: Watch over those, both night and day, who work while others sleep, and grant that we may never forget that our common life depends upon each other's toil; through Jesus Christ our Lord."
+        }
       },
       {
         "header": "THE SONG OF SIMEON",
-        "content": "Lord, now let your servant depart in peace,\naccording to your word.\nFor my eyes have seen your salvation,\nwhich you have prepared before the face of all people;\nTo be a light to lighten the Gentiles,\nand to be the glory of your people Israel.\n\nGlory be to the Father, and to the Son, and to the Holy Spirit;\nas it was in the beginning, is now, and ever shall be, world without end.\n\nAmen.\n\nGuide us waking, O Lord, and guard us sleeping;\nthat awake we may watch with Christ,\nand asleep we may rest in peace."
+        "content": {
+          "text": "Lord, now let your servant depart in peace, according to your word. For my eyes have seen your salvation, which you have prepared before the face of all the people; To be a light to lighten the Gentiles, and to be the glory of your people Israel.",
+          "prayer": {
+            "all": "Glory be to the Father, and to the Son, and to the Holy Spirit; as it was in the beginning, is now, and ever shall be, world without end.",
+            "response": "Amen."
+          }
+        },
+        "text": "Guide us waking, O Lord, and guard us sleeping; that awake we may watch with Christ, and asleep we may rest in peace."
       },
       {
         "header": "CLOSING",
-        "content": "The almighty and merciful Lord,\nFather, Son, and Holy Spirit,\nbless us and keep us, this night and evermore.\n\nAmen."
+        "content": {
+          "prayer": {
+            "all": "The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore.",
+            "response": "Amen."
+          }
+        }
       }
     ]
   }

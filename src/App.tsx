@@ -5,9 +5,37 @@ import dailyPrayersData from './data/daily-prayers.json';
 
 type PrayerKey = 'morning' | 'midday' | 'evening' | 'compline';
 
+interface Scripture {
+  text: string;
+  reference?: string;
+  verses?: string;
+  glory?: {
+    text: string;
+    response?: string;
+  };
+}
+
+interface PrayerContent {
+  all?: string;
+  leader?: string;
+  response?: string;
+}
+
+interface Content {
+  scripture?: Scripture;
+  prayer?: PrayerContent;
+  instructions?: string;
+  label?: string;
+  text?: string;
+  alternatives?: Array<{
+    label?: string;
+    scripture?: Scripture;
+  }>;
+}
+
 interface PrayerSection {
   header: string;
-  content: string;
+  content: Content;
 }
 
 interface PrayerData {
@@ -100,26 +128,71 @@ const PrayerApp = () => {
 
   const prayerOrder = ['morning', 'midday', 'evening', 'compline'];
 
-  const formatSectionContent = (content: string) => {
-    return content.split('\n').map((line: string, index: number) => {
-      const trimmedLine = line.trim();
-      if (!trimmedLine) {
-        return <div key={index} className="h-4" />;
+  const renderContent = (content: Content, key: number) => {
+    const elements = [];
+
+    if (content.label) {
+      elements.push(<p key={`${key}-label`} className="font-sans text-sm text-center mb-2 text-amber-300">{content.label}</p>);
+    }
+
+    if (content.scripture) {
+      if (content.scripture.verses) {
+        elements.push(<p key={`${key}-ref`} className="font-sans text-xs text-center mb-4 text-gray-400">{content.scripture.reference}</p>);
+        elements.push(...content.scripture.verses.split('\n').map((line: string, i: number) => (
+          <p key={`${key}-verse-${i}`} className="font-sans text-base text-center leading-relaxed mb-2">{line}</p>
+        )));
       }
-      if (trimmedLine === 'Amen.') {
-        return <p key={index} className="font-sans text-base text-center italic mt-6 mb-8 text-amber-200">{trimmedLine}</p>;
+      if (content.scripture.text) {
+        elements.push(<p key={`${key}-ref`} className="font-sans text-xs text-center mb-4 text-gray-400">{content.scripture.reference}</p>);
+        elements.push(<p key={`${key}-text`} className="font-sans text-base text-center leading-relaxed mb-2 italic text-gray-300">"{content.scripture.text}"</p>);
       }
-      if (trimmedLine.match(/\d+:\d+/)) {
-        return <p key={index} className="font-sans text-xs text-center mb-4 text-gray-400">{trimmedLine}</p>;
+      if (content.scripture.glory) {
+        elements.push(<p key={`${key}-glory`} className="font-sans text-base text-center leading-relaxed mb-2">{content.scripture.glory.text}</p>);
+        if (content.scripture.glory.response) {
+          elements.push(<p key={`${key}-glory-resp`} className="font-sans text-base text-center italic mt-6 mb-8 text-amber-200">{content.scripture.glory.response}</p>);
+        }
       }
-      if (trimmedLine.startsWith('"') || trimmedLine.endsWith('"')) {
-        return <p key={index} className="font-sans text-base text-center leading-relaxed mb-2 italic text-gray-300">{trimmedLine}</p>;
+    }
+
+    if (content.text) {
+      elements.push(...content.text.split('\n').map((line: string, i: number) => (
+        <p key={`${key}-text-${i}`} className="font-sans text-base text-center leading-relaxed mb-2">{line}</p>
+      )));
+    }
+
+    if (content.prayer) {
+      if (content.prayer.leader) {
+        elements.push(...content.prayer.leader.split('\n').map((line: string, i: number) => (
+          <p key={`${key}-leader-${i}`} className="font-sans text-base text-center leading-relaxed mb-2">{line}</p>
+        )));
       }
-      if (trimmedLine.match(/^[A-Z ]+$/)) {
-        return <p key={index} className="font-sans text-base text-center mb-2 text-gray-400 font-medium">{trimmedLine}</p>;
+      if (content.prayer.all) {
+        elements.push(...content.prayer.all.split('\n').map((line: string, i: number) => (
+          <p key={`${key}-all-${i}`} className="font-sans text-base text-center leading-relaxed mb-2">{line}</p>
+        )));
       }
-      return <p key={index} className="font-sans text-base text-center leading-relaxed mb-2">{trimmedLine}</p>;
-    });
+      if (content.prayer.response) {
+        elements.push(<p key={`${key}-resp`} className="font-sans text-base text-center italic mt-6 mb-8 text-amber-200">{content.prayer.response}</p>);
+      }
+    }
+
+    if (content.instructions) {
+      elements.push(<p key={`${key}-instr`} className="font-sans text-base text-center mb-4 text-gray-400">{content.instructions}</p>);
+    }
+
+    if (content.alternatives) {
+      content.alternatives.forEach((alt, altIndex) => {
+        if (alt.label) {
+          elements.push(<p key={`${key}-alt-label-${altIndex}`} className="font-sans text-xs text-center mb-2 text-gray-400">{alt.label}</p>);
+        }
+        if (alt.scripture) {
+          elements.push(<p key={`${key}-alt-ref-${altIndex}`} className="font-sans text-xs text-center mb-4 text-gray-400">{alt.scripture.reference}</p>);
+          elements.push(<p key={`${key}-alt-text-${altIndex}`} className="font-sans text-base text-center leading-relaxed mb-2 italic text-gray-300">"{alt.scripture.text}"</p>);
+        }
+      });
+    }
+
+    return <div key={key} className="text-center space-y-4">{elements}</div>;
   };
 
   const currentPrayers = prayerMode === 'family' ? familyPrayers : dailyPrayers;
@@ -210,7 +283,7 @@ const PrayerApp = () => {
                     </button>
                     {isExpanded && (
                       <div className="text-center">
-                        {formatSectionContent(section.content)}
+                        {renderContent(section.content, sectionIndex)}
                       </div>
                     )}
                   </div>
@@ -220,7 +293,7 @@ const PrayerApp = () => {
           </div>
 
           <div className="text-center mt-8 text-sm text-gray-400">
-            <p>May the peace of Christ be with you</p>
+            <p>May peace of Christ be with you</p>
           </div>
     </div>
   );
