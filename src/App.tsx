@@ -292,9 +292,6 @@ const PrayerApp = () => {
             </div>
           </div>
 
-          <div className="text-center mt-8 text-sm text-gray-400">
-            <p>May peace of Christ be with you</p>
-          </div>
     </div>
   );
 };
